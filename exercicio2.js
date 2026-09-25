@@ -7,3 +7,13 @@
 //"Conceito D" se a nota for menor que 5.
 //Teste o programa utilizando diferentes notas.
 
+let nota = 4
+if (nota < 5) {
+    console.log("Conceito D");
+} else if (nota >= 5 && nota <= 6) {
+    console.log("Conceito C");
+} else if (nota >= 7 && nota <= 8) {
+    console.log("Conceito B");
+} else  {
+    console.log("Conceito A")
+}
