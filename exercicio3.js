@@ -12,13 +12,21 @@
 //"Dia inválido"
 //Teste o programa utilizando diferentes números.
 
-let dia = 6
-if (dia = 1) {
+let dia = 8
+if (dia == 1) {
     console.log("Domingo");
-} else if (dia = 2) {
+} else if (dia == 2) {
     console.log("Segunda-Feira");
-} else if (nota >= 7 && nota <= 8) {
-    console.log("Conceito B");
-} else  {
-    console.log("Conceito A")
+} else if (dia == 3) {
+    console.log("Terça-Feira");
+} else if (dia == 4) {
+    console.log("Quarta-Feira");
+}  else if (dia == 5) {
+    console.log("Quinta-Feira");
+} else if (dia == 6) {
+    console.log("Sexta-Feira"); 
+} else if (dia == 7) {
+    console.log("Sábado");
+} else {
+    console.log("Dia inválido")
 }
