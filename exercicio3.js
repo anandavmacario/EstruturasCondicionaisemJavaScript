@@ -11,3 +11,14 @@
 //Caso seja informado um número diferente de 1 a 7, exiba:
 //"Dia inválido"
 //Teste o programa utilizando diferentes números.
+
+let dia = 6
+if (dia = 1) {
+    console.log("Domingo");
+} else if (dia = 2) {
+    console.log("Segunda-Feira");
+} else if (nota >= 7 && nota <= 8) {
+    console.log("Conceito B");
+} else  {
+    console.log("Conceito A")
+}
